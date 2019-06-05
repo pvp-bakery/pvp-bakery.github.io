@@ -1,0 +1,99 @@
+/* Preloader */
+#circle {background: #fe7817;}
+
+/* menu */
+.brand span {color: #fe7817;}
+
+@media (min-width:992px){
+#mainheader .main-nav ul > li > a:hover, #mainheader .main-nav ul > li > a.selected{ color:#fe7817;}
+#header .main-nav ul > li > a:hover, #header .main-nav ul > li > a.selected{ color:#fe7817;}
+}
+.selected1{ color: #fe7817;}
+.selected1:hover{ color: #fe7817;}
+
+p span {color: #fe7817;}
+span a:hover, a:hover {text-decoration: none; color: #fe7817;}
+.border_bottom {border-bottom: 1px dotted rgba(254,120,23,0.9);}
+
+/* About */
+.days {color: #fe7817;}
+.button {background: rgba(254,120,23,0.95);}
+
+/*  Menu Toggle */
+.price-round{background-color: #fe7817;}
+
+/* Menu Special */
+.specials-round {background-color: #fe7817;}
+
+/* Location */
+.location-phone i{color:#fe7817;}
+
+/* Private Dining */
+.pd_list ul li i{color:#fe7817;}
+
+
+/* Gallery */
+.gal-top .prev, .gal-top .next{background: #fe7817;}
+#slides .cycle-overlay div{background: rgba(254,120,23,0.9);}
+.caption4 span{color: #fe7817;}
+
+/* Event */
+.left_content p {color: #fe7817;}
+
+/* Reservation */
+#reservation_form .submitBtn {background-color: #fe7817;}
+.reserve_form input:focus, .reserve_form textarea:focus ,input:valid:focus{ 
+  	/* IE6-9 */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(254,120,23,0.8);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(254,120,23,0.8);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(254,120,23,0.8); 
+}
+
+/* Contact */
+.address i{ color:#fe7817;}
+.phone i{ color:#fe7817;}
+a.mail-text:hover{color: #fe7817;}
+.mail-text i{color:#fe7817;}
+#contact_form .submitBtn {background-color: #fe7817;}
+.cont_form input:focus, .cont_form textarea:focus ,input:valid:focus{ 
+  	/* IE6-9 */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(254,120,23,0.8);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(254,120,23,0.8);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(254,120,23,0.8); 
+}
+
+/* Scroll Pane */
+.jspDrag {background: #fe7817;}
+.jspDrag:hover {background: #fe7817;}
+
+/* Special Menu */
+.spmenu{background: rgba(254,120,23,0.95);}
+.spmenu1:before, .spmenu2:before, .spmenu3:before, .spmenu4:before
+{
+border-top: 17px solid rgba(254,120,23,0.95); 
+border-right: 13px solid transparent;
+border-bottom: 13px solid transparent;
+border-left: 0px solid transparent;
+}
+
+
+/* Special Menu */
+#lightbox .close, #lightbox2 .close, #lightbox3 .close{background:#fe7817;}
+
+#progress { 
+		position: absolute; top: 0; left:0; height: 7px; width: 0px; 
+		background: -moz-linear-gradient(left, rgba(254,120,23,0.3) 0%, rgba(254,120,23,0.8) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(254,120,23,0.3)), color-stop(100%,rgba(0,0,0,0.8))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(left, rgba(254,120,23,0.3) 0%,rgba(254,120,23,0.8) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left, rgba(254,120,23,0.3) 0%,rgba(254,120,23,0.8) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(left, rgba(254,120,23,0.3) 0%,rgba(254,120,23,0.8) 100%); /* IE10+ */
+		background: linear-gradient(to right, rgba(254,120,23,0.3) 0%,rgba(254,120,23,0.8) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d1e1e1e', endColorstr='#cc000000',GradientType=1 ); /* IE6-9 */
+			z-index: 99999; 
+		-webkit-border-top-right-radius: 50px;
+		-webkit-border-bottom-right-radius: 50px;
+		-moz-border-radius-topright: 50px;
+		-moz-border-radius-bottomright: 50px;
+		border-top-right-radius: 50px;
+		border-bottom-right-radius: 50px;
+}
