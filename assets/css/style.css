@@ -2006,7 +2006,7 @@ iframe{ width: 100%; height: auto;}
 
 
 .img-overlay{
-background:url(../img/12.jpg) left center;
+background:url(../../image/girl.jpg) left center;
 position: fixed;
 width: 100%;
 top: 0;
@@ -2020,7 +2020,7 @@ background-size: cover;
 }
 
 .aboutbg{
- background:url(../img/12.jpg) left center;
+ background:url(../../image/tl.jpg) left center;
  -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -2197,7 +2197,7 @@ background-size: cover;
 }
 
 .event{
- background:url(../img/19.jpg) left center;
+ background:url(../../image/tl.jpg) left center;
  -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
