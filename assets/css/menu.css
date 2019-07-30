@@ -10,7 +10,7 @@
 
 
 .menu-inner.affix{position:fixed;top:0;left:0;z-index:999;max-height:100%;overflow:auto;-ms-overflow-style:-ms-autohiding-scrollbar;-webkit-overflow-scrolling:touch}
-.menu-inner .brand{/*width:50%;height:70px;*/padding:14px 0;}
+.menu-inner .brand{/*width:50%;height:70px;*/padding:0px 0;}
 .menu-inner .brand a{display:block;white-space:100%;height:100%; text-decoration:none; color:#333;}
 .menu-inner .brand a img{max-width:100%;max-height:100%}
 .menu-inner .nav-toggle{position:absolute;width:25px;height:20px;top:30px;right:5%;border:4px solid #777;border-width:4px 0}
