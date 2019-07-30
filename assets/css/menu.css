@@ -166,11 +166,11 @@ ul.nav li a:hover::after, ul.nav li a.selected:after { /* use CSS generated cont
 .header_details{ margin-top:70px;}
 }
 @media (min-width: 481px) and (max-width: 767px){
-.menu-inner .brand {padding: 9px 0;}
+.menu-inner .brand {padding: 0px 0;}
 .header_details{ margin-top:70px;}
 }
 @media (min-width: 321px) and (max-width: 480px) { 
-.menu-inner .brand {padding: 9px 0;}
+.menu-inner .brand {padding: 0px 0;}
 .menu-inner .nav-toggle{ top:23px;}
 .header_details{ margin-top:70px;}
 .brand a{ font-size:22px;}
