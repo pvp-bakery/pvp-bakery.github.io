@@ -110,10 +110,10 @@ h2{
 h3{text-transform:uppercase;  margin-top:0; font-size:20px; letter-spacing:1px;}
 h4{ margin-top:30px;margin-bottom:5px; color: #545454; text-transform:uppercase; font-size:15px; letter-spacing:1px; line-height:1.5;}
 p{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size:16px;
 	font-weight:400;
-	color:#919191;
+	color:#545454;
 	z-index:9999999;
 	line-height:26px;
 }
@@ -802,7 +802,8 @@ Home Page
 		color:#ffffff;
 		background:rgba(255,255,255,0.95);
 		position:fixed;
-        z-index:0;
+		z-index:0;
+		opacity: 0.82;
 }
 /* //  Default Page */
 
@@ -851,7 +852,7 @@ Home Page
 .hour_table{ margin-bottom:40px; color:#919191;}
 .right_content{ margin-left:25px;}
 .hour_table tr{
-color:#acabab;
+color:#545454;
 }
 .hour_table td
 {
@@ -1772,7 +1773,7 @@ a.mail-text{font-size: 12px;}
 .header_details{ z-index:9999; width:100%;}
 .header_icons ul{ display:table; clear:both;}
 #mainheader { top:0; bottom:auto; z-index: 99999;}
-.content_overlay{ opacity:0.89;}
+.content_overlay{ opacity:0.79;}
 .home3 .col-md-9{ padding-right:0; padding-left:0;}
 .home3 .col-md-10 {padding-right: 0;padding-left: 0;}
 .sub_title h4{ margin-top:30px;}
