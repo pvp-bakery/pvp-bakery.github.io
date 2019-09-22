@@ -129,7 +129,7 @@ height:100%;
 width:100%;
 position:absolute;
 }
-.cycle-slideshow img {
+.cycle-slideshow background {
 		height: auto;
 		width:auto;
 		max-width:100%;
