@@ -117,8 +117,8 @@
 }
 
 .cycle-slideshow ul, .cycle-slideshow li {
-		width:auto;
-		height:auto;
+		width:100%;
+		height:100%;
 		overflow:hidden;
 		list-style-type:none;
 }
