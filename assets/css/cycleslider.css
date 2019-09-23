@@ -5,6 +5,13 @@
                                  box-sizing: border-box;
                              }
 
+@media only screen and (max-width:768 px){
+	.cycle-slideshow{
+		max-width:50%;
+	}
+}
+
+
 .cycle-slideshow li div      {
                                  width: 400px;
                                  padding: 20px;
