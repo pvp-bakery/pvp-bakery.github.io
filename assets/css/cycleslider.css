@@ -334,7 +334,7 @@ font-weight:bold;
  }
  /* Gallery Ends */
 
-@media(max-width: 991px) {
+@media(min-width: 991px) {
 #slides .cycle-slideshow img{ height:100%;}
 }
 @media (min-width: 768px) and (max-width: 990px) {
