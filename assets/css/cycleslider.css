@@ -15,7 +15,12 @@
                                  -webkit-backface-visibility: hidden;
                                  -ms-backface-visibility: hidden;
                                  backface-visibility: hidden;
-                             }
+							 }
+.cycle-slideshow ul li[img] {
+	width:100% !important;
+	max-width:100%;
+
+}							 
 .pattern_bg {
 	background: url(../img/pat/06.png) repeat fixed 50% 0 transparent;
 	height:100%;
