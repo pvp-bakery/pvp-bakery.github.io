@@ -16,7 +16,7 @@
                                  -ms-backface-visibility: hidden;
                                  backface-visibility: hidden;
 							 }
-.cycle-slideshow ul li[img] {
+.cycle-slideshow ul li[cycle-background] {
 	width:100% !important;
 	max-width:100%;
 
