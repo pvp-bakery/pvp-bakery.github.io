@@ -1,3 +1,5 @@
+/*
+
 .cycle-slideshow,
 .cycle-slideshow *           {
                                  -webkit-box-sizing: border-box;
@@ -11,6 +13,7 @@
 	}
 }
 
+*/
 
 .cycle-slideshow li div      {
                                  width: 400px;
@@ -142,10 +145,9 @@ width:100%;
 position:absolute;
 }
 .cycle-slideshow img {
-		width:100% !important;
 		max-width:100%;
-		
 }
+
 
 
 .cycle-caption {
