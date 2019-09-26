@@ -149,13 +149,13 @@ position:absolute;
 
 
 .cycle-slideshow img {
-		max-width:100%;
-		height: auto; 
+		width:100%;
+		height:auto; 
 }
 
   @media only screen and (max-width: 600px) {
 	.cycle-slideshow img{
-		max-width: 600px;
+		width:auto;
 		height:100%;
 	}
 }  
