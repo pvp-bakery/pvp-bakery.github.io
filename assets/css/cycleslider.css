@@ -153,9 +153,8 @@ position:absolute;
 		height:auto; 
 }
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 	.cycle-slideshow img{
-		width:auto;
 		height:100%;
 	}
 }  
