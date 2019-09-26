@@ -126,7 +126,8 @@
     background-size:cover;
     color:#fff;
     overflow:hidden;
-		position:fixed!important;
+		/* position:fixed!important; */
+		position: relative;
 		z-index:888;
 		background:#333333;
 }
@@ -154,7 +155,7 @@ position:absolute;
 
  @media only screen and (max-width: 600px) {
 	.cycle-slideshow img{
-		max-height:100%;
+		height:100%;
 
 	}
 } 
