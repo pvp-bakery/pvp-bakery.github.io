@@ -127,7 +127,7 @@
     color:#fff;
     overflow:hidden;
 		/* position:fixed!important; */
-		position: relative;
+		position: fixed!important;
 		z-index:888;
 		background:#333333;
 }
@@ -150,11 +150,12 @@ position:absolute;
 
 .cycle-slideshow img {
 		width:100%;
-		height:auto; 
 }
 
 @media only screen and (max-width: 600px) {
 	.cycle-slideshow img{
+		position: absolute;
+		left:-50%;
 		height:100%;
 	}
 }  
