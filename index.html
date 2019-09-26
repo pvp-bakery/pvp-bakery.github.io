@@ -98,7 +98,7 @@
 <div class="clearfix">
 <div class="cycle-slideshow" 
   data-cycle-caption-plugin='caption2' 
-  data-cycle-slides="img" 
+  data-cycle-slides="picture" 
   data-cycle-fx='scrollHorz' 
   data-cycle-speed='700' 
   data-cycle-timeout='7000' 
@@ -117,9 +117,35 @@ data-cycle-caption-template="<span class=caption1>{{caption1}}</span> <span clas
 	   <img src="image/straw.jpg" data-cycle-caption1="Asian <span> Bakery</span>" data-cycle-caption2="Innovative - Artisan - Freshly made in house daily.">
 	   <img src="image/rolls.jpg" data-cycle-caption1="Asian <span> Bakery</span>" data-cycle-caption2="Innovative - Artisan - Freshly made in house daily."> -->
 	
-	   <img src="image/blue_hd.jpg" data-cycle-caption1="Asian <span> Bakery</span>" data-cycle-caption2="Innovative - Artisan - Freshly made in house daily."> -->
-	   <img src="image/piece_hd.jpg" data-cycle-caption1="Asian <span> Bakery</span>" data-cycle-caption2="Innovative - Artisan - Freshly made in house daily."> -->
-	   <img src="image/straw_hd.jpg" data-cycle-caption1="Asian <span> Bakery</span>" data-cycle-caption2="Innovative - Artisan - Freshly made in house daily."> -->	
+
+	   <picture>
+		<source media='(max-width: 600px)'
+			srcset='image/blue_hd_mobile.jpg'/>
+		<source media='(min-width: 601px)'
+				srcset='image/blue_hd.jpg'/>
+		<img src='image/blue_hd.jpg' alt="blueberry bread" />
+		</picture>
+
+		<picture>
+			<source media='(max-width: 600px)'
+				srcset='image/piece_hd_mobile.jpg'/>
+			<source media='(min-width: 601px)'
+					srcset='image/piece_hd.jpg'/>
+			<img src='image/piece_hd.jpg' alt="cake piece" />
+		</picture>
+
+		<picture>
+				<source media='(max-width: 600px)'
+				srcset='image/straw_hd_mobile.jpg'/>
+				<source media='(min-width: 601px)'
+						srcset='image/straw_hd.jpg'/>
+				<img class="straw" src='image/straw_hd.jpg' alt="strawberry bread" />
+		</picture>
+
+
+	   <!-- <img src= 'image/blue_hd.jpg' data-cycle-caption1="Asian <span> Bakery</span>" data-cycle-caption2="Innovative - Artisan - Freshly made in house daily."> 
+	   <img src= 'image/piece_hd.jpg' data-cycle-caption1="Asian <span> Bakery</span>" data-cycle-caption2="Innovative - Artisan - Freshly made in house daily."> 
+	   <img src= 'image/straw_hd.jpg' data-cycle-caption1="Asian <span> Bakery</span>" data-cycle-caption2="Innovative - Artisan - Freshly made in house daily.">  -->
     <div class="hprev"><i class="fa fa-angle-left"></i></div>
     <div class="hnext"><i class="fa fa-angle-right"></i></div>
     <div class="cycle-overlay"></div>
