@@ -146,15 +146,18 @@ position:absolute;
 }
 
 .cycle-slideshow img {
-		width:100%;
+		max-width:100%;
 		height: auto; 
 } 
 
 
 
-/* @media only screen and (max-width: 600px) {
-	.cycle-slideshow img{height:100%;}
-} */
+ @media only screen and (max-width: 600px) {
+	.cycle-slideshow img{
+		max-height:100%;
+
+	}
+} 
 
 
 
