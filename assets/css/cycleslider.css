@@ -156,7 +156,6 @@ position:absolute;
 
 @media only screen and (max-width: 600px) {
 	.cycle-slideshow img{
-		left:-50%;
 		width:auto;
 		height:100%;
 	}
