@@ -163,7 +163,10 @@ position:absolute;
 		height:auto;
 	}
 
-	
+	.cycle-slideshow picture img[class="blue"]{
+		position:absolute;
+		top:-10%;
+	}
 }  
 
 
@@ -177,6 +180,7 @@ position:absolute;
 		width:auto;
 		height:100%;
 	}
+	
 }   
 
 
