@@ -73,8 +73,9 @@ width:100%;
 .main-nav ul ul li i{ color:#bbbbbb; margin-top:7px;}
 .main-nav ul li a .sub-toggle{display:none}
 .main-nav ul li ul{
-	background-color:#fffff;
-	text-align:left;display:none!important;
+	background-color:#ffffff;
+	text-align:left;
+	display:none!important;
 	position:absolute;
 	top:100%;
 	left:0;
@@ -184,3 +185,12 @@ ul.nav li a:hover::after, ul.nav li a.selected:after { /* use CSS generated cont
 }
 
 
+#mydiv
+{
+    font-size:25px;
+}
+#mydiv a
+{
+	color: #656565;
+    font-size:20px;
+}
