@@ -185,13 +185,26 @@ ul.nav li a:hover::after, ul.nav li a.selected:after { /* use CSS generated cont
 }
 
 
-#mydiv
+/* #mydiv
 {
     font-size:25px;
 }
 #mydiv a
 {
+	padding-top:13px;
+	text-align: center;
 	color: #656565;
-    font-size:20px;
+} */
+
+#mydiv
+{
+	padding-top:13px;
+	font-size:20px;
+	text-align: center;
+	color: #656565;
+}
+
+#self_id{
+	font-size:15px;
 }
 
