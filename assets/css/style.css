@@ -891,7 +891,8 @@ background: #727272;
 
 
 #menu1 .title-splider{padding-bottom:5px;}
-.title-splider{ width:80%; padding-bottom:0px;}
+/* .title-splider{ width:80%; padding-bottom:0px;min-height: 100%;} */
+.title-splider{ padding-bottom:0px;}
 .title-splider h4{ margin-bottom:5px; text-transform:uppercase;}
 .title-splider .left{ width:90%;}
 .title-splider .right{ width:8%; padding-left:10px;}

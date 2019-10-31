@@ -70,6 +70,7 @@ font-family: 'Carrois Gothic SC', sans-serif;
 
 	.portfolio-grid li,
 	#portfolio-grid li {
+  height:650px;
   width: 25%;
   float: left;
   display: none;
