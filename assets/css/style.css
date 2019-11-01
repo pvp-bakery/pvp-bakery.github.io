@@ -371,7 +371,8 @@ z-index: 9999;
 bottom: 15%;
 }
 #mainheader .menu-inner{ height:110px;}
-#header .brand, #mainheader .brand{ width:280px;}
+#header .brand, #mainheader .brand{ width:340px;}
+#header .mobile_icons, #mainheader .mobile_icons{ width:280px;}
 #mainheader .navbar-nav li:hover > ul{ display:block; position: absolute; bottom: 100%; background:rgba(0,0,0,0.5);}
 #mainheader .navbar-nav ul > li:hover ul{ display:block; position: absolute; bottom:0px; left:100%; background:rgba(0,0,0,0.5);}
 .navbar-default {
@@ -402,6 +403,11 @@ color:#fff;
 text-transform:uppercase;
 letter-spacing:1px;
 
+}
+
+.brand div{
+	display:inline-block;
+	
 }
 .brand span{ color:#f32a2a;letter-spacing:0px; padding-right:3px; }
 .brand a:hover, .brand a:focus, .brand a:active{}

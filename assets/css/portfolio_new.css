@@ -70,7 +70,7 @@ font-family: 'Carrois Gothic SC', sans-serif;
 
 	.portfolio-grid li,
 	#portfolio-grid li {
-  height:650px;
+  /* height:650px; */
   width: 25%;
   float: left;
   display: none;
@@ -79,6 +79,10 @@ font-family: 'Carrois Gothic SC', sans-serif;
   overflow: hidden;
   cursor: pointer;
 }
+
+
+
+
 .three_half .portfolio-grid li, .three_half #portfolio-grid li{ width:33%;}
 .two_half .portfolio-grid li, .two_half #portfolio-grid li{ width:50%;}
 .two_half .portfolio-grid, .two_half #portfolio-grid{ margin-top:0;}
